@@ -1,0 +1,16 @@
+header {
+    margin: 0px auto;
+}
+
+.links {
+    float: inline-start;
+}
+
+#wrapper {
+    margin: 30px auto;
+}
+
+.link {
+    padding: 10px;
+    background-color: pink;
+}
