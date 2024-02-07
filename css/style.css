@@ -1,16 +1,45 @@
+* {
+    outline: 2px solid red;
+    background: #FFE3F1;
+background: -moz-linear-gradient(left, #FFE3F1 0%, #D6B0EC 50%, #FF99CC 100%);
+background: -webkit-linear-gradient(left, #FFE3F1 0%, #D6B0EC 50%, #FF99CC 100%);
+background: linear-gradient(to right, #FFE3F1 0%, #D6B0EC 50%, #FF99CC 100%);
+}
+
 header {
     margin: 0px auto;
 }
 
 .links {
-    float: inline-start;
+    margin-bottom: 50px;
+    align-self: center;
+        background-color: unset;
+    background: unset;
 }
 
 #wrapper {
     margin: 30px auto;
+    padding: 30px auto;
+    border: 30px auto;
 }
 
 .link {
     padding: 10px;
+    margin: 20px;
     background-color: pink;
+}
+
+img {
+    background:unset;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
