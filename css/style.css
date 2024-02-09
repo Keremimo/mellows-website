@@ -1,16 +1,109 @@
-header {
-    margin: 0px auto;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  background: linear-gradient(to top, #4d4f54 0%, #5d6e75 100%);
+}
+
+* {
+  font-family: Lato, sans-serif;
+}
+
+body {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: khaki;
+}
+
+#thetop {
+  text-align: center;
+  display: block;
+}
+
+.banner-wrapper {
+  margin-right: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 50px;
 }
 
 .links {
-    float: inline-start;
+  text-align: center;
+  display: inline-block;
+}
+.toplink {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.12em;
+  line-height: 1.6em;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
+  text-transform: uppercase;
+}
+.midbanner {
+  margin: 0px auto;
 }
 
-#wrapper {
-    margin: 30px auto;
+h1,
+h4 {
+  text-align: center;
 }
 
-.link {
-    padding: 10px;
-    background-color: pink;
+.twitter-timeline {
+  margin-left: 50px;
+  float: left;
+}
+
+.midbanimg {
+  display: block;
+  margin: 0px auto;
+}
+
+.middle {
+  width: 1366px;
+}
+
+.middle p {
+  text-align: right;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.midtext {
+  text-align: right;
+}
+
+.listing {
+  margin-left: 300px;
+  margin-right: 330px;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.listing li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 300;
+}
+
+.listing ul {
+  padding-right: 20px;
+}
+
+.antipineapple {
+  margin: 0px auto;
+  text-align: center;
+  vertical-align: auto;
 }
