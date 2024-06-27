@@ -12,8 +12,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 1366px;
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto;
   color: white;
 }
 
@@ -46,6 +46,7 @@ header {
 .links {
   text-align: center;
 }
+
 .toplink {
 
   font-family: "Lato", sans-serif;
@@ -59,6 +60,7 @@ header {
   margin: auto;
   text-transform: uppercase;
 }
+
 .midbanner {
   margin: 0px auto;
 }
